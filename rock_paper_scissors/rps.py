@@ -11,10 +11,6 @@ def rock_paper_scissors(n):
         return [['rock'], ['paper'], ['scissors']]
 
     def helper(n, plays):
-        if n < 0:
-            return []
-        if n == 1:
-            return [['rock'], ['paper'], ['scissors']]
         curr_plays = []
         rock_options = [['rock', 'rock'], [
             'rock', 'paper'], ['rock', 'scissors']]
